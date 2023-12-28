@@ -1,0 +1,31 @@
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    font-size: 1em;
+    line-height: 1.4;
+    background: #56baed;
+    background-image:url(backgrond.png);
+    border-radius: 10px;
+}
+.largurasite{
+  border-radius: 10px;
+}
+
+.container-home {
+  background-color: #3296a5;
+  max-width: 1275px;
+  margin: auto;
+  border-radius: 10px;
+}
+#quemsomos{
+  padding: 30px 50px;
+}
+#servicos{
+  padding: 30px 50px;
+}
+#contatos{
+  padding: 30px 50px;
+}
+
+

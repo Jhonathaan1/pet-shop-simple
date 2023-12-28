@@ -1,0 +1,777 @@
+#homeCarousel {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+}
+
+#homeCarousel .owl-theme .slide {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.bannerMobileContainer {
+    position: relative;
+    background-image: url(/img/bg-s.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain
+}
+
+.bannerMobileContainer .bannerMobile {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 1.2em
+}
+
+.bannerMobileContainer .bannerMobile h2 {
+    margin-top: 2em
+}
+
+.bannerMobileContainer .bannerMobile .left, .bannerMobileContainer .bannerMobile .right {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 50%
+}
+
+.bannerMobileContainer .bannerMobile #homeCarousel {
+    border-top: unset;
+    border-bottom: unset
+}
+
+.bannerMobileContainer .bannerMobile #homeCarousel .owl-theme .slide {
+    background-size: contain
+}
+
+@media only screen and (min-width:601px) {
+    #homeCarousel {
+        margin-top: 2rem;
+        border: none
+    }
+    #homeCarousel .owl-theme .slide {
+        margin: 3rem 6rem;
+        height: 32rem;
+        background-size: contain;
+        background-position: bottom
+    }
+}
+
+.homeSpotlightIconsContainer {
+    position: relative;
+    z-index: 2
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks:nth-of-type(2) {
+    margin-top: 6px
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block {
+    margin-right: 14px;
+    width: 120px;
+    padding: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2)
+}
+
+@media only screen and (min-width:601px) {
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block {
+        width: unset;
+        margin-top: 2rem
+    }
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block i {
+    color: #94cde0;
+    margin: 6px 10px 0 0
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block i img {
+    height: 30px
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block span {
+    font-size: 14px;
+    color: #f7f7f7;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: unset;
+    font-display: swap;
+    font-family: Barlow Bold
+}
+
+@media only screen and (min-width:601px) {
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block span {
+        margin-top: 10px
+    }
+}
+
+.homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link:last-of-type .block {
+    margin-right: 0
+}
+
+@media only screen and (min-width:1024px) {
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks {
+        margin-top: 10px;
+        left: 0;
+        right: 0
+    }
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block {
+        width: 238px;
+        height: 190px;
+        display: block;
+        background-color: #4fb6e675;
+        margin-top: unset;
+        text-align: center;
+    }
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block i {
+        width: 53px;
+        height: 50px;
+        margin: unset
+    }
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block i img {
+        height: 100px;
+        margin: auto;
+        padding-bottom: 10px;
+        border-radius: 50%;
+    
+    }
+    .homeSpotlightIconsContainer .homeSpotlightIconsBlocks .link .block span {
+        display: block;
+        font-size: 20px
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+    #homeSpotlightIcons {
+        margin-top: 2rem
+    }
+}
+
+#homeManifest {
+    margin: 2.2rem 0;
+    min-height: 610px;
+    background-color: #f7eee4;
+    position: relative;
+    padding-top: 40px!important;
+    padding-bottom: 40px!important
+}
+
+@media only screen and (min-width:1024px) {
+    #homeManifest {
+        padding: 150px 0 60px 0!important;
+        margin: 5rem 0 2.2rem 0
+    }
+}
+
+#homeManifest .title {
+    position: absolute;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    text-align: right;
+    margin: 0 0 0 calc(10% - 55px)!important;
+    font-size: 3rem!important;
+    text-align: center;
+    bottom: 0;
+    top: 0
+}
+
+#homeManifest .manifestVideoContainer {
+    width: 80%;
+    margin-left: 10%
+}
+
+#homeManifest .manifestMobileContainer {
+    left: 0;
+    right: 0;
+    position: absolute
+}
+
+#homeManifest .manifestMobileContainer h2 {
+    margin-bottom: 10px
+}
+
+#homeManifest a {
+    position: absolute;
+    bottom: 12px;
+    left: 10%;
+    right: 10%
+}
+
+@media only screen and (min-width:601px) {
+    #homeManifest .button {
+        display: none
+    }
+}
+
+@media only screen and (min-width:993px) {
+    #homeManifest {
+        padding-top: 2rem
+    }
+}
+
+#homeBlogPosts {
+    margin: 3rem auto 0
+}
+
+#homeBlogPosts #homeBlogLink {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-weight: 700;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem
+}
+
+@media only screen and (min-width:601px) {
+    #homeBlogPosts {
+        position: relative
+    }
+    #homeBlogPosts .container {
+        position: absolute;
+        margin-top: -120px!important
+    }
+    #homeBlogPosts h2 {
+        text-align: center;
+        margin-bottom: .8rem
+    }
+    #homeBlogPosts .video {
+        margin: 0 -1.2rem
+    }
+    #homeBlogPosts #homeBlogLink {
+        width: 33%;
+        max-width: 200px;
+        margin: 3rem auto 0
+    }
+}
+
+@media only screen and (min-width:993px) {
+    #homeBlogPosts h2 {
+        margin: 3rem 0 1.5rem;
+        font-size: 2rem;
+        text-align: center
+    }
+}
+
+@media screen and (min-width:1088px) {
+    #homeBlogPosts .container {
+        margin-left: calc((100% - 1100px)/2)!important
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #homeBlogPosts .container {
+        margin-left: calc((100% - 1100)/2)!important;
+        max-width: 1100px!important;
+        width: 1100px!important
+    }
+}
+
+@media screen and (min-width:1472px) {
+    #homeBlogPosts .container {
+        margin-left: calc((100% - 1100px)/2)!important;
+        max-width: 1100px!important;
+        width: 1100px!important
+    }
+}
+
+#homeServices {
+    margin-top: 40px
+}
+
+#homeServices>.container {
+    padding-top: 6rem!important
+}
+
+@media only screen and (min-width:601px) {
+    #homeServices {
+        margin-top: 425px
+    }
+}
+
+#homeServices svg {
+    overflow: visible
+}
+
+#homeServices svg circle, #homeServices svg path {
+    fill: #70bbd4
+}
+
+#homeServices svg text {
+    font-weight: 700;
+    font-size: .35rem;
+    fill: #893552;
+    font-display: swap;
+    font-family: Recoleta
+}
+
+#homeServices svg text.big {
+    font-size: .5rem;
+    font-display: swap;
+    font-family: Recoleta Semi Bold
+}
+
+#homeServices svg .icon circle, #homeServices svg .icon path, #homeServices svg .icon rect {
+    fill: #fff
+}
+
+#homeServices svg .icon.cat circle, #homeServices svg .icon.cat path, #homeServices svg .icon.cat rect, #homeServices svg .icon.sterilization circle, #homeServices svg .icon.sterilization path, #homeServices svg .icon.sterilization rect {
+    fill: #70bbd4
+}
+
+#homeServices svg .stroke {
+    fill: #70bbd4;
+    stroke: #70bbd4
+}
+
+#homeServices svg .animation {
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#homeServices .modal .modal-content {
+    background-color: #fff
+}
+
+#homeServices .modal .modal-content .slide {
+    min-height: 230px
+}
+
+#homeServices .modal .modal-content a {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-decoration: none
+}
+
+#homeServices .modal .modal-content h2 {
+    color: #70bbd4
+}
+
+#homeServices .modal .modal-content .slide {
+    padding: 0 6px 30px 20px
+}
+
+#homeServices .modal .modal-content h1 {
+    color: #ffaf75;
+    padding: 0 6px 10px 20px
+}
+
+#homeServices .modal .owl-dots {
+    position: absolute;
+    bottom: 60px
+}
+
+#homeServices .modal .owl-dots .owl-dot {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    border: none;
+    background-color: #f2f2f2
+}
+
+#homeServices .modal .owl-dots .owl-dot span {
+    display: none!important
+}
+
+#homeServices .modal .owl-dots .owl-dot:focus {
+    outline: none
+}
+
+#homeServices .modal .owl-dots .owl-dot.active {
+    background-color: #ffaf75
+}
+
+#homeServices .modal span[id^=carousel_prev] {
+    left: -22px
+}
+
+#homeServices .modal span[id^=carousel_next] {
+    right: -22px
+}
+
+#homeServices .modal span[id^=carousel_next] svg, #homeServices .modal span[id^=carousel_prev] svg {
+    background-color: unset
+}
+
+@media only screen and (min-width:601px) {
+    #homeServices .modal .modal-content h1 {
+        font-size: 2rem;
+        padding: unset
+    }
+    #homeServices .modal .modal-content h2 {
+        font-size: 1.3rem;
+        font-display: swap;
+        font-family: Barlow
+    }
+    #homeServices .modal .modal-content .carousel .owl-stage {
+        width: 3600px!important
+    }
+    #homeServices .modal .modal-content .carousel .owl-stage .owl-item {
+        width: 360px!important
+    }
+    #homeServices .modal .modal-content .carousel .owl-dots {
+        display: block;
+        position: static;
+        width: calc(100% - 6rem);
+        margin: 2rem auto 0
+    }
+    #homeServices .modal .modal-content .carousel .owl-dots .owl-dot {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        margin: 0 4px;
+        border: none;
+        background-color: #f2f2f2
+    }
+    #homeServices .modal .modal-content .carousel .owl-dots .owl-dot:focus {
+        outline: none
+    }
+    #homeServices .modal .modal-content .carousel .owl-dots .owl-dot.active {
+        background-color: #ffaf75
+    }
+    #homeServices .modal .modal-content .carousel .slide {
+        font-size: 1rem;
+        padding: unset
+    }
+    #homeServices .modal .modal-content .carousel .slide a {
+        font-size: 1rem;
+        display: block;
+        margin-top: .35rem
+    }
+    #homeServices .modal .modal-content .carousel svg {
+        padding: 0;
+        height: 1.5rem;
+        background-color: transparent
+    }
+    #homeServices .modal .modal-content .carousel span[id^=carousel_next], #homeServices .modal .modal-content .carousel span[id^=carousel_prev] {
+        top: auto;
+        bottom: 0
+    }
+    #homeServices .modal .modal-content .carousel span[id^=carousel_next] {
+        right: 0!important
+    }
+    #homeServices .modal .modal-content .carousel span[id^=carousel_prev] {
+        left: 0!important
+    }
+    #homeServices #dogVacination.active, #homeServices #dogVacination:hover {
+        -webkit-transform: translate(-5px, -7px);
+        transform: translate(-5px, -7px)
+    }
+    #homeServices #catVacination.active, #homeServices #catVacination:hover {
+        -webkit-transform: translate(5px, -7px);
+        transform: translate(5px, -7px)
+    }
+    #homeServices #checkup.active, #homeServices #checkup:hover {
+        -webkit-transform: translate(8px, 2.5px);
+        transform: translate(8px, 2.5px)
+    }
+    #homeServices #sterilization.active, #homeServices #sterilization:hover {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px)
+    }
+    #homeServices #microchip.active, #homeServices #microchip:hover {
+        -webkit-transform: translate(-6.75px, 2.5px);
+        transform: translate(-6.75px, 2.5px)
+    }
+}
+
+#homeServicesSvg {
+    position: relative;
+    z-index: 10
+}
+
+.sideSlide_Container {
+    z-index: 1;
+    position: relative;
+    margin-top: calc(50% - 250px);
+    margin-left: -152px
+}
+
+.sideSlide_Container .carousel {
+    padding: 20px;
+    padding-top: 30px;
+    width: 100%;
+    text-align: right;
+    border-left-color: transparent;
+    position: relative;
+    border-radius: 5px;
+    background-color: #f3f6fa
+}
+
+.sideSlide_Container .carousel .owl-dots {
+    bottom: calc(58px + 2rem);
+    max-width: 60%;
+    margin-left: 30%;
+    text-align: left
+}
+
+.sideSlide_Container .carousel .owl-dots .services-dots {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0 4px;
+    border: none;
+    background-color: #c7d0db
+}
+
+.sideSlide_Container .carousel .owl-dots .services-dots:focus {
+    outline: none
+}
+
+.sideSlide_Container .carousel .owl-dots .services-dots.active {
+    background-color: #ffaf75
+}
+
+.sideSlide_Container .carousel .owl-item {
+    height: 310px
+}
+
+.sideSlide_Container .carousel .sideSlide_Text {
+    overflow: hidden;
+    max-width: 60%;
+    margin-left: 30%;
+    text-align: left
+}
+
+.sideSlide_Container .carousel .sideSlide_Text p {
+    font-display: swap;
+    font-family: Barlow
+}
+
+.sideSlide_Container .carousel .sideSlide_Text h2 {
+    font-family: Barlow Bold;
+    font-display: swap;
+    font-family: Recoleta Bold;
+    font-size: 31px;
+    font-weight: 900;
+    color: #ffaf75;
+    margin-bottom: .5rem
+}
+
+.sideSlide_Container .linksArea {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: calc(1rem + 20px);
+    z-index: 3;
+    max-width: 60%;
+    margin-left: 31%
+}
+
+.sideSlide_Container .linksArea .button {
+    padding: 1.5rem;
+    max-width: 200px;
+    font-size: 1rem;
+    font-display: swap;
+    font-family: Barlow Bold;
+    border-radius: 5px
+}
+
+.simpleCarousel_Container {
+    margin-bottom: 2.2rem
+}
+
+@media only screen and (min-width:601px) {
+    .simpleCarousel_Container {
+        margin: 0
+    }
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel {
+    position: relative
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel span[id^=carousel_next] svg, .simpleCarousel_Container .simpleCarousel_Carousel span[id^=carousel_prev] svg {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 10;
+    display: none;
+    margin-top: calc(40vh - 21px)
+}
+
+@media only screen and (min-width:601px) {
+    .simpleCarousel_Container .simpleCarousel_Carousel span[id^=carousel_next] svg, .simpleCarousel_Container .simpleCarousel_Carousel span[id^=carousel_prev] svg {
+        display: block
+    }
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel span[id^=carousel_next] svg {
+    left: unset;
+    right: 10px
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content {
+    height: 251px;
+    position: relative;
+    background-size: cover!important
+}
+
+@media only screen and (min-width:601px) {
+    .simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content {
+        height: 400px
+    }
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content .simpleCarousel_Text h1 {
+    line-height: 2.2rem;
+    width: 80%;
+    padding-top: 7%;
+    max-width: 303px;
+    margin-left: 10%;
+    color: #893552;
+    font-display: swap;
+    font-family: Recoleta Semi Bold
+}
+
+@media only screen and (min-width:601px) {
+    .simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content .simpleCarousel_Text h1 {
+        font-size: 50px;
+        line-height: 3.6rem;
+        width: 40%
+    }
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content .simpleCarousel_Button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10%
+}
+
+.simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content .simpleCarousel_Button span {
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: .7rem;
+    padding: 8px;
+    width: 70%;
+    max-width: 200px;
+    font-weight: 700;
+    margin-left: 10%;
+    background-color: #70bbd4;
+    border-radius: 10px;
+    font-display: swap;
+    font-family: Barlow;
+    color: #fff
+}
+
+@media only screen and (min-width:601px) {
+    .simpleCarousel_Container .simpleCarousel_Carousel .simpleCarousel_Content .simpleCarousel_Button span {
+        font-size: 1rem
+    }
+}
+
+#home .mobile-container {
+    padding: 0 1.2rem
+}
+
+#home .simpleCarousel_Carousel .owl-item {
+    cursor: pointer
+}
+
+#home .simpleCarousel_Carousel .owl-carousel .owl-item img {
+    min-height: 200px
+}
+
+@media only screen and (min-width:601px) {
+    #home .banner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 350px;
+        margin: 0 auto
+    }
+    #home .banner h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        font-display: swap;
+        font-family: Recoleta Semi Bold
+    }
+    #home .banner h2 {
+        font-size: 1.5rem;
+        font-display: swap;
+        font-family: Barlow
+    }
+    #home h2.title {
+        text-align: center;
+        margin: -4rem 4.5rem 0!important;
+        font-size: 2rem!important;
+        color: #893552
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #home {
+        padding-top: 0!important
+    }
+    #home .banner {
+        width: 400px
+    }
+    #home .banner h1 {
+        font-size: 4rem;
+        line-height: 4rem
+    }
+    #home .banner h2 {
+        font-size: 1.7rem
+    }
+    #home .simpleCarousel_Carousel .owl-dots {
+        bottom: 60px!important
+    }
+}
+
+@media only screen and (min-width:993px) {
+    #home .banner {
+        width: 350px
+    }
+    #home .banner h1 {
+        font-size: 3.6rem;
+        line-height: 3.7rem
+    }
+    #home .banner h2 {
+        font-size: 1.4rem
+    }
+}

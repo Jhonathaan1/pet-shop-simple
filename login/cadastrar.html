@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/pngaaa.com-4467214.png">
+  </head>
+  
+
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="inactive underlineHover"><a href="login.html"> Entrar </a></h2>
+      <h2 class="active">Cadastrar </h2>
+  
+      <!-- Icon -->
+      
+      <script>
+        function sair(){
+        window.location.href = "../index.html"
+        }
+      </script>
+      <!-- Login Form -->
+      <form >
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+        <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
+        <input type="text" id="password" class="fadeIn third" name="senha" placeholder="senha">
+        <input type="text" id="password" class="fadeIn third" name="senha" placeholder="repita a senha...">
+        <input type="submit" class="fadeIn fourth" value="cadastrar" id="btn-cadastrar">
+        <input type="button"  onclick="sair()" class="fadeIn fourth" id="btn" value="SAIR">
+      </form>
+      
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="esqueci-senha.html">Esqueceu a senha ?</a>
+      </div>
+      
+    </div>
+  </div>
